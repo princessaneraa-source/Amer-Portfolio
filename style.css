@@ -1,0 +1,358 @@
+body {
+    background-color: #E6E6FA;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333333;
+    margin: 10px;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    color: #4B3869;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    width: 250px;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px #00000020;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card h2 {
+    color: #6A4C93;
+}
+
+.card p {
+    color: #555555;
+}
+
+.card a {
+    display: inline-block;
+    background-color: #9370DB;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+.card a:hover {
+    background-color: #6A4C93;
+}
+
+.My-photo{
+    text-align:center;
+    background-color:lightBlue;
+    color: black;
+}
+
+/* Contact Page */
+body {
+    background-color: lightPurple;
+    font-family: Arial, sans-serif;
+}
+
+.subtitle {
+    text-align: center;
+    color: #666;
+}
+
+.contact-card {
+    background-color: #E0B0FF;
+    max-width: 350px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px #00000020;
+}
+
+.contact-item {
+    background-color: #E6E6FA;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 12px;
+}
+
+.contact-item h3 {
+    color: #6A4C93;
+}
+
+.contact-item p {
+    color: #333;
+    overflow-wrap: anywhere;
+}
+
+h1 {
+    text-align: center;
+    color: #6A4C93;
+}
+
+/*Home page*/
+h1, h2, p{
+    text-align: center;
+}
+
+/* MY SKILLS PAGE */
+
+.skills-page {
+    background-color: #F3EEFF;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main Heading */
+.skills-title {
+    color: #7651A8;
+    font-size: 38px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+
+/* Subtitle */
+.skills-subtitle {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+/* Skill Cards Container */
+.skill-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Individual Cards */
+.skill-card {
+    background-color: white;
+    padding: 22px;
+    margin: 20px 0;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px #00000015;
+    border-top: 5px solid #8BE28B;
+}
+
+/* Card Headings */
+.skill-card h2 {
+    color: #7651A8;
+    font-size: 23px;
+    margin-bottom: 18px;
+}
+
+/* Card Paragraphs */
+.skill-card p {
+    color: #444;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+/* Personal Skills List */
+.skill-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skill-card li {
+    background-color: #F3EEFF;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 10px;
+    color: #333;
+    font-size: 15px;
+}
+
+/* Technical Skill Tags */
+.skill-tag {
+    display: inline-block;
+    background-color: #DDF8DD;
+    color: #386B38;
+    padding: 9px 14px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Footer Design */
+.my-footer {
+    background-color: #E6E6FA;
+    color: #4B306A;
+    text-align: center;
+    padding: 25px 10px;
+    margin-top: 40px;
+    border-top: 4px solid #B8A1E3;
+}
+
+.my-footer h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.my-footer p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.copyright {
+    border-top: 1px solid #C8B9E8;
+    padding-top: 15px;
+    margin-top: 20px;
+}
+
+/* ABOUT ME PAGE */
+
+.about-page {
+    background-color: #DDA0DD;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main Heading */
+.about-title {
+    color: #6A3D7A;
+    font-size: 30px;
+    margin: 20px 0 30px;
+}
+
+/*container*/
+.about-container {
+    max-width: 650px;
+    margin: auto;
+}
+
+.about-card {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 18px;
+    box-shadow: 0 4px 10px #00000020;
+    border-left: 6px solid #9B59B6;
+}
+
+/* Card Headings */
+.about-card h2 {
+    color: #7B4397;
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+
+/* Paragraphs */
+.about-card p {
+    color: #333333;
+    font-size: 15px;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+/* Mobile-Friendly Layout */
+@media screen and (max-width: 480px) {
+    .about-page {
+        padding: 12px;
+    }
+
+    .about-title {
+        font-size: 26px;
+    }
+
+    .about-card {
+        padding: 16px;
+    }
+
+    .about-card h2 {
+        font-size: 19px;
+    }
+
+    .about-card p {
+        font-size: 14px;
+    }
+}
+
+/* Dark Mode Button */
+#modeButton {
+    background-color: #6A3D9A;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+/* Dark Mode */
+.dark-mode {
+    background-color: #ADD8E6 !important;
+    color: white;
+}
+
+/* Dark Mode Headings */
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode p {
+    color: black;
+}
+
+/* Smooth Transition */
+body {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Digital Clock Design */
+.clock-box {
+    background-color: white;
+    color: #6A3D9A;
+    width: 220px;
+    height: 90px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px #00000020;
+}
+
+.clock-box h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+#clock {
+    font-size: 24px;
+    font-weight: bold;
+    color: #6A3D9A;
+}
